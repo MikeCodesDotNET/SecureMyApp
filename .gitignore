@@ -1,0 +1,8 @@
+
+*.nupkg
+
+*.xml
+
+*.md
+
+*.dll
