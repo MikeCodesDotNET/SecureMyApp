@@ -65,6 +65,9 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
+    <Reference Include="OnePasswordExtension">
+      <HintPath>..\onepassword-app-extension-xamarin\OnePasswordExtension.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
@@ -92,5 +95,6 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Touch_ID-512.png" />
+    <BundleResource Include="Resources\1Password.png" />
   </ItemGroup>
 </Project>

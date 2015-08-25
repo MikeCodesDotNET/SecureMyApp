@@ -57,14 +57,24 @@
                                     <action selector="btnSignUp_TouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="16"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nUV-kg-HLt" fixedFrame="YES">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nUV-kg-HLt">
                                 <rect key="frame" x="137" y="251" width="46" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="Touch_ID-512.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="btnTouchId_TouchUpInside:" destination="BYZ-38-t0r" id="20" eventType="touchUpInside"/>
+                                    <action selector="btnTouchId_TouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="20"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="65x-TS-MtO" fixedFrame="YES">
+                                <rect key="frame" x="137" y="305" width="46" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="1Password.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnOnePassword_TouchUpInside:" destination="BYZ-38-t0r" id="24" eventType="touchUpInside"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -73,9 +83,10 @@
                     <connections>
                         <outlet property="btnLogin" destination="zb0-NM-1ir" id="name-outlet-zb0-NM-1ir"/>
                         <outlet property="btnSignUp" destination="12" id="name-outlet-12"/>
+                        <outlet property="btnTouchId" destination="nUV-kg-HLt" id="name-outlet-nUV-kg-HLt"/>
                         <outlet property="tbxPassword" destination="nSt-wa-bAU" id="name-outlet-nSt-wa-bAU"/>
                         <outlet property="tbxUsername" destination="o8S-fU-tn3" id="name-outlet-o8S-fU-tn3"/>
-                        <outlet property="btnTouchId" destination="nUV-kg-HLt" id="name-outlet-nUV-kg-HLt"/>
+                        <outlet property="btnOnePassword" destination="65x-TS-MtO" id="name-outlet-65x-TS-MtO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -83,12 +94,13 @@
             <point key="canvasLocation" x="145" y="377"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1Password.png" width="128" height="128"/>
+        <image name="Touch_ID-512.png" width="512" height="512"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
-    <resources>
-        <image name="Touch_ID-512.png" width="512" height="512"/>
-    </resources>
 </document>

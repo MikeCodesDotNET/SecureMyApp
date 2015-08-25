@@ -1,1 +1,14 @@
-﻿<Properties StartupItem="SecureMyApp.csproj" />
+﻿<Properties StartupItem="SecureMyApp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Michaels iPhone" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ViewController.cs">
+    <Files>
+      <File FileName="AppDelegate.cs" Line="23" Column="12" />
+      <File FileName="Helpers/KeychainHelper.cs" Line="137" Column="10" />
+      <File FileName="ViewController.cs" Line="99" Column="75" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -20,6 +20,10 @@ namespace SecureMyApp
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
+		UIButton btnOnePassword { get; set; }
+
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
 		UIButton btnSignUp { get; set; }
 
 		[Outlet]
@@ -38,6 +42,10 @@ namespace SecureMyApp
 		[GeneratedCode ("iOS Designer", "1.0")]
 		partial void btnLogin_TouchUpInside (UIButton sender);
 
+		[Action ("btnOnePassword_TouchUpInside:")]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		partial void btnOnePassword_TouchUpInside (UIButton sender);
+
 		[Action ("btnSignUp_TouchUpInside:")]
 		[GeneratedCode ("iOS Designer", "1.0")]
 		partial void btnSignUp_TouchUpInside (UIButton sender);
@@ -51,6 +59,10 @@ namespace SecureMyApp
 			if (btnLogin != null) {
 				btnLogin.Dispose ();
 				btnLogin = null;
+			}
+			if (btnOnePassword != null) {
+				btnOnePassword.Dispose ();
+				btnOnePassword = null;
 			}
 			if (btnSignUp != null) {
 				btnSignUp.Dispose ();
